@@ -12,17 +12,18 @@ def function_1():
             print(it)
 
 
-# thread_list = []
-# for i in range(1):
-#     x = threading.Thread(target=function_1)
-#     thread_list.append(x)
-#     x.start()
-#
-# for thread in thread_list:
-#     thread.join()
-#
-# b = (datetime.datetime.today() - starting_time).seconds
-# print(f"it took {b} seconds")
+<!-- 
+ thread_list = []
+ for i in range(1):
+     x = threading.Thread(target=function_1)
+     thread_list.append(x)
+     x.start()
+
+ for thread in thread_list:
+     thread.join()
+
+ b = (datetime.datetime.today() - starting_time).seconds
+ print(f"it took {b} seconds") -->
 
 
 
